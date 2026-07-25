@@ -134,13 +134,13 @@ class EmailSender:
 
 
 def main():
-    MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
+    MONGO_URI = os.environ.get("MONGO_URI", )
     MONGO_DB = "production_db"
     MONGO_COLLECTION = "production_records"
 
     MANIFEST_URL = os.environ.get(
         "MANIFEST_URL",
-        "https://rahilkhan789.github.io/Product_report/"
+        
     )
 
     SENDER_EMAIL = os.environ.get("SENDER_EMAIL",)
