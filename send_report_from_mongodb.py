@@ -143,9 +143,9 @@ def main():
         "https://rahilkhan789.github.io/Product_report/"
     )
 
-    SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "rahilkhan784422@gmail.com")
-    SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD", "")
-    RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "krahil292@gmail.com")
+    SENDER_EMAIL = os.environ.get("SENDER_EMAIL",)
+    SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD",)
+    RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", )
 
     if not SENDER_PASSWORD:
         print("❌ Error: SENDER_PASSWORD environment variable is not set.")
