@@ -594,13 +594,13 @@ class ExcelProcessor:
 
 
 def main():
-    file_path = r"C:\Users\Rahil khan\Downloads\monthly report.py\monthly production-analysis.xlsx"
+    file_path = r""
 
-    SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "rahilkhan784422@gmail.com")
+    SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "")
     SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD", "")
-    RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "rahilrrk18@gmail.com")
+    RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "")
 
-    MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/")
+    MONGO_URI = os.environ.get("MONGO_URI", "")
     MONGO_DB = "production_db"
     MONGO_COLLECTION = "production_records"
 
